@@ -1,0 +1,18 @@
+.main-layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-layout__side, .main-layout__page {
+    flex-grow: 1;
+}
+
+@media only screen and (min-width : 992px){
+    .main-layout {
+        flex-direction: row;
+    }
+
+    .main-layout__page {
+        flex-grow: 3;
+    }
+}
