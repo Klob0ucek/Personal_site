@@ -9,9 +9,11 @@
 
   --border-radius-small: 0.5rem;
   --border-radius-big: 1.5rem;
+  --border-radius-large: 3.5rem;
 
   --padding-small: 1rem;
   --padding-big: 2rem;
+  --padding-large: 3.5rem;
 
   --color-background: #242424;
   --color-primary: #545454;

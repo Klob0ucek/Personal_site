@@ -6,9 +6,8 @@
 
 .side-card__desc {
     background-color: #666;
-    color: #fff;
     border-radius: var(--border-radius-small);
-    margin: 0
+    margin: 0 auto 0.5rem auto;
 }
 
 .side-card__name {
@@ -16,7 +15,12 @@
 }
 
 .side-card__image {
-    width: 100%;
+    margin: var(--padding-big);
+    width: 80%;
+    box-sizing: border-box;
     object-fit: scale-down;
-    border-radius: var(--border-radius-small);
+    border-radius: var(--border-radius-big);
+    background-color: var(--color-primary-light);
 }
+
+
