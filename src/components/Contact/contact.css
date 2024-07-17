@@ -1,0 +1,40 @@
+.contact {
+    color: var(--color-text);
+    display: flex;
+    flex-direction: row;
+    border-radius: var(--border-radius-small);
+    padding: var(--padding-small);
+    gap: 1rem;
+}
+
+.contact__icon-box {
+    display: inline-block;
+    background-color: var(--color-primary-light);
+    padding: var(--padding-small);
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    vertical-align: center;
+    border-radius: var(--border-radius-small);
+}
+
+.contact__icon {
+    font-size: 32px;
+    position: relative;
+    top: -10px;
+}
+
+.contact__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contact__name {
+    text-align: start;
+    opacity: 70%;
+}
+
+.contact__text {
+    text-align: start;
+}
